@@ -5,6 +5,8 @@
     <link rel="stylesheet" type="text/css" href="css/heisman.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.ico" />
     <link rel="shortcut icon" type="image/png" href="http://eg.com/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="css/css/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="css/css/tabstyles.css" />
     <script type="text/javascript" src="js/jQuery/jquery-2.1.1.js"></script>
     <title>Mariota for Heisman</title>
 </head>
@@ -17,20 +19,51 @@
     <div class="parallax-image-wrapper parallax-image-wrapper-100" data-anchor-target="#dragons + .gap" data-bottom-top="transform:translate3d(0px, 200%, 0px)" data-top-bottom="transform:translate3d(0px, 0%, 0px)">
         <div class="parallax-image parallax-image-100" style="background-image:url(img/kang.png)" data-anchor-target="#dragons + .gap" data-bottom-top="transform: translate3d(0px, -70%, 0px);" data-top-bottom="transform: translate3d(0px, 70%, 0px);"></div>
     </div>
+    <div class="parallax-image-wrapper parallax-image-wrapper-100" data-anchor-target="#bacons + .gap" data-bottom-top="transform:translate3d(0px, 200%, 0px)" data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+        <div class="parallax-image parallax-image-100" style="background-color:rgb(255,255,255)" data-anchor-target="#bacons + .gap" data-bottom-top="transform: translate3d(0px, -80%, 0px);" data-top-bottom="transform: translate3d(0px, 80%, 0px);"></div>
+    </div>
     <div id="skrollr-body">
         <div class="header" id="dragons"></div>
         <div class="gap gap-100" style="background-image:url(img/kang.png);"></div>
-        <div class="content" id="bacons">
-            <div style="height: 500px;"></div>
-        </div>
-        <div class="page" id="pg2">
-             <h2 id="lede"> Mariota LEDE </h2>
-
+        <div class="content" id="bacons"></div>
+        <div class="gap gap-50" style="padding-top: 5%; padding-left: 5%;">
+            <img src="img/pullQuote.png">
         </div>
         <div class="page" id="pg4">
-            <p id="byline">BY JUSTIN WISE & JOEY HOYT</p>
+            <p style="height: 200px;" id="byline">BY JUSTIN WISE & JOEY HOYT</p>
+        </div>    
+    <section id="stats">    
+        <div class="tabs tabs-style-circle">
+            <nav>
+                <ul>
+                    <li><a href="#section-circle-1" style="padding-bottom: 1%;"><span>Class</span></a>
+                    </li>
+                    <li><a href="#section-circle-2" style="padding-bottom: 1%;"><span>Ethnicity</span></a>
+                    </li>
+                    <li><a href="#section-circle-3" style="padding-bottom: 1%;"><span>Position</span></a>
+                    </li>
+                    <li><a href="#section-circle-4" style="padding-bottom: 1%;"><span>Year</span></a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="content-wrap">
+                <section id="section-circle-1">
+                    <p style="color: white;">STATS1</p>
+                </section>
+                <section id="section-circle-2">
+                    <p style="color: white;">STATS2</p>
+                </section>
+                <section id="section-circle-3">
+                    <p style="color: white;">STATS3</p>
+                </section>
+                <section id="section-circle-4">
+                    <p style="color: white;">STATS4</p>
+                </section>
+            </div>
+            <!-- /content -->
         </div>
-        <script type="text/javascript" src="js/heisman.js"></script>
+        <!-- /tabs -->
+    </section>
         <script>
             (function(i, s, o, g, r, a, m) {
                 i['GoogleAnalyticsObject'] = r;
@@ -49,6 +82,16 @@
         <script type="text/javascript" src="js/skrollr.min.js"></script>
         <script type="text/javascript">
             var s = skrollr.init();
+        </script>
+        <script src="js/js/cbpFWTabs.js"></script>
+        <script>
+            (function() {
+
+                [].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+                    new CBPFWTabs( el );
+                });
+
+            })();
         </script>
 </body>
 
