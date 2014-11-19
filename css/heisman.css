@@ -1,11 +1,16 @@
-body{
-	margin: 0;
-	width: 100%;
-    background-color: black;
-}
 @font-face {
     font-family:'exo-black';
     src: url(../fonts/exo-black.otf);
+}
+.banner{
+    padding: 0.75%;
+}
+.banner #logo {
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family:'exo-black', sans-serif;
 }
 #headOverlay{ /* this is hidden right now */
 	width: 100%;
@@ -34,16 +39,33 @@ body{
 	padding-top: 3%;
 }
 #byline{
-    padding-top: 5%;
 	text-align: center;
 	font-family: sans-serif;
 }
-    * {
+#lede{
+    font-size: 20px;
+    font-family: verdana;
+}
+#story1{
+    color: white;
+    line-height: 30px;
+    font-family: verdana;
+}
+#tit{
+    color: white;
+    font-size: 50px;
+    font-family: 'exo-black', verdana;
+    padding-left: 25%;
+    padding-top: 25%;
+}
+
+* {
         padding:0;
         margin:0;
     }
     html, body {
         height:100%;
+        background-color: black;
     }
     .skrollr-desktop body {
         height:100% !important;
@@ -111,30 +133,21 @@ body{
         height:100%;
     }
     .header, .content {
+        background:rgb(0,0,0);
+        color: rgb(255,255,255);
         -webkit-box-sizing:border-box;
         -moz-box-sizing:border-box;
         box-sizing:border-box;
     }
     .content-full {
-        height:100%;
+        padding-bottom: 5%;
     }
     #done {
         height:100%;
     }
     #stats{
     	background-color: black;
-    	padding-top: 10%;
-        padding-bottom: 10%;
-    }
-    .text{
-        text-align: left;
-        padding-left: 20%;
-        padding-right: 20%;
-        margin: 0 auto;
-        background-color: black;
-    }
-    #stats{
-        padding-top: 20%;
+        padding-top: 25%;
     }
     .content-wrap{
         padding-top: 5%;
