@@ -1,11 +1,7 @@
-* {
-        padding:0;
-        margin:0;
-    }
-html, body {
-        height:100%;
-        background-color: black;
-    }
+body{
+    height:100%;
+        background-color: black; 
+}
 @font-face {
     font-family:'exo-black';
     src: url(../fonts/exo-black.otf);
