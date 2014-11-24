@@ -1,3 +1,11 @@
+* {
+        padding:0;
+        margin:0;
+    }
+html, body {
+        height:100%;
+        background-color: black;
+    }
 @font-face {
     font-family:'exo-black';
     src: url(../fonts/exo-black.otf);
@@ -51,14 +59,8 @@
     padding-top: 25%;
 }
 
-* {
-        padding:0;
-        margin:0;
-    }
-    html, body {
-        height:100%;
-        background-color: black;
-    }
+
+
     .skrollr-desktop body {
         height:100% !important;
     }
