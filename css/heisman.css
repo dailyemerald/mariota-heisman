@@ -37,17 +37,23 @@ html, body {
     color: white;
     line-height: 30px;
     font-family: verdana;
+    padding-left: 5%;
+    padding-right: 5%;
     position: relative;
 }
 #story2{
     line-height: 30px;
     font-family: verdana;
+    padding-left: 5%;
+    padding-right: 5%;
     color: white;
     position: relative;
 }
 #story3{
     line-height: 30px;
     font-family: verdana;
+    padding-left: 5%;
+    padding-right: 5%;
     color: white;
     position: relative;   
 }
@@ -58,17 +64,11 @@ html, body {
     padding-left: 25%;
     padding-top: 25%;
 }
-
-
-
-    .skrollr-desktop body {
+.graph{
+    padding-top: 4%;
+}
+  .skrollr-desktop body {
         height:100% !important;
-    }
-    body {
-        font-family:sans-serif;
-    }
-    p {
-        margin:1em 0;
     }
     .parallax-image-wrapper {
         position:fixed;
