@@ -23,21 +23,25 @@
 #lede{
     font-size: 20px;
     font-family: verdana;
+    color: white;
 }
 #story1{
     color: white;
     line-height: 30px;
     font-family: verdana;
+    position: relative;
 }
 #story2{
     line-height: 30px;
     font-family: verdana;
     color: white;
+    position: relative;
 }
 #story3{
     line-height: 30px;
     font-family: verdana;
-    color: white;   
+    color: white;
+    position: relative;   
 }
 #tit{
     color: white;
