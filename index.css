@@ -1,7 +1,6 @@
-.container {
+.cont {
 	background-color: green;
-	border: 1px solid green;
-	display: block;
+	width: 100%;
 }
 
 .bar {
