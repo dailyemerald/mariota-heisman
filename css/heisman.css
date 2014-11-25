@@ -4,7 +4,7 @@
     }
 html, body {
         height:100%;
-        background-color: black;
+        background-color: rgb(8,8,8);
     }
 @font-face {
     font-family:'exo-black';
@@ -133,10 +133,7 @@ html, body {
         box-sizing:border-box;
     }
     .content-full {
-        padding-bottom: 5%;
-    }
-    #done {
-        height:100%;
+       
     }
     #stats{
     	background-color: black;
@@ -144,6 +141,9 @@ html, body {
     }
     .content-wrap{
         padding-top: 5%;
+    }
+    .cbp-fwslider nav span{
+        background-color: rgb(8,8,8);
     }
    
 
