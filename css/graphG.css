@@ -1,5 +1,6 @@
-.cont {
-	width: 100%;
+.con {
+	display: block;
+	padding-left: 50px;
 }
 
 .bar {
@@ -8,8 +9,14 @@
 	background-color: white;
 	width: 50px;
 	margin-top: 100px;
-	margin-left: 15px;
+	margin-left: 5px;
 	border: 1px solid white;
+}
+
+.bar #three {
+	color: yellow;
+	background-color: yellow;
+	border: yellow;
 }
 
 .bar:hover { 
@@ -17,37 +24,40 @@
     border: 1px solid black;
 }
 
-#one {
-	height: 285px
-}
 
 .names {
 	width: 50px;
-	margin-left: 15px;
+	margin-left: 9px;
 	display: inline-block;
 	position: relative;
 }
+
 .names p {
 	font-family: helvetica;
 	font-size: 12px;
 	color: white;
 }
 
+#one {
+	height: 250px
+}
+
 #two {
-	height: 144px
+	height: 200px
 }
 
 #three {
-	height: 138px
+	height: 185px;
 }
 
 #four {
-	height: 60px
+	height: 165px;
 }
 
 #five {
-	height: 24px
+	height: 160px;
 }
+
 
 [data-tooltip] {
 	position: relative;
@@ -73,7 +83,7 @@
 	margin-bottom: 5px;
 	margin-left: -80px;
 	padding: 7px;
-	width: 130%;
+	width: 50px;
 	border-radius: 3px;
 	background-color: rgb(8, 8, 8);
 	background-color: rgb(8, 8, 8);
