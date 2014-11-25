@@ -10,11 +10,6 @@ html, body {
     font-family:'exo-black';
     src: url(../fonts/exo-black.otf);
 }
-.page {
-    color: white;
-    margin: 0;
-    height: 100%;
-}
 .insert {
     position: absolute;
     background-color: white;
@@ -37,7 +32,6 @@ html, body {
     color: white;
     line-height: 30px;
     font-family: verdana;
-    padding-right: 5%;
     position: relative;
 }
 #tit {
