@@ -1,5 +1,6 @@
 .cont {
 	width: 100%;
+	padding-top: 10%;
 }
 
 .bar {
@@ -7,7 +8,6 @@
 	position: relative;
 	background-color: white;
 	width: 10%;
-	margin-top: 20%;
 	margin-left: 5%;
 }
 
