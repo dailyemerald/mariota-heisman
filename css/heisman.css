@@ -32,6 +32,12 @@ box-shadow: 0;
     line-height: 30px;
     font-family: verdana;
 }
+#mar{
+   float: left;
+    position: relative;
+    height: 25%;
+    width: 25%;
+}
 * {
         padding:0;
         margin:0;
