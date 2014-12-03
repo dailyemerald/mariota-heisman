@@ -6,10 +6,10 @@ html, body {
     src: url(../fonts/exo-black.otf);
 }
 #share-buttons img {
-width: 35px;
-padding: 5px;
-border: 0;
-box-shadow: 0;
+    width: 35px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
 }
 #title {
     color: white;
@@ -18,14 +18,10 @@ box-shadow: 0;
     padding-left: 25%;
     padding-top: 25%;
 }
-#lede {
+.quot {
     font-size: 20px;
     font-family: verdana;
     color: white;
-}
-#byline {
-    text-align: center;
-    font-family: sans-serif;
 }
 .story {
     color: white;
@@ -33,10 +29,9 @@ box-shadow: 0;
     font-family: verdana;
 }
 #mar{
-   float: left;
-    position: relative;
-    height: 25%;
-    width: 25%;
+    height: 30%;
+    width: 30%;
+    padding-left: 15%;
 }
 * {
         padding:0;
