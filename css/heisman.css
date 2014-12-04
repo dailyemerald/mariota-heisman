@@ -36,7 +36,9 @@ html, body {
 .story {
     color: white;
     line-height: 30px;
-    font-family: verdana;
+    font-family: 'Droid Sans', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 14px;
 }
 * {
         padding:0;
