@@ -5,9 +5,13 @@ html, body {
     font-family:'exo-black';
     src: url(../fonts/exo-black.otf);
 }
+#emerald{
+    font-family:'exo-black';
+    letter-spacing: 2px;
+}
 #share-buttons img {
-    width: 35px;
-    padding: 5px;
+    padding: 2%;
+    width: 45%;
     border: 0;
     box-shadow: 0;
 }
@@ -33,8 +37,6 @@ html, body {
     color: white;
     line-height: 30px;
     font-family: verdana;
-}
-#mar{
 }
 * {
         padding:0;
