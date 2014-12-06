@@ -10,14 +10,11 @@
 	margin-left: 5%;
 }
 
-hr{
-	
-}
-
 .bar:hover { 
     background-color: rgb(159,204,60);
     border: 1px solid rgb(159,204,60);
 }
+
 #one {
 	height: 285px
 }
