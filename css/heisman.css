@@ -5,6 +5,10 @@ html, body {
     font-family:'exo-black';
     src: url(../fonts/exo-black.otf);
 }
+@font-face {
+    font-family: 'liberation sans';
+    src: url(../fonts/Liberation-Sans/LiberationSans-Regular.ttf);
+}
 #emerald{
     font-family:'exo-black';
     letter-spacing: 2px;
@@ -23,19 +27,19 @@ html, body {
 }
 #quot1 {
     font-size: 20px;
-    font-family: verdana;
+    font-family: 'liberation sans';
     color: white;
 }
 #quot2{
     color: rgb(8,8,8);
     font-size: 30px;
-    font-family: verdana;
+    font-family: 'liberation sans';
     font-weight: bold;
 }
 .story {
     color: white;
     line-height: 30px;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'liberation sans';
     letter-spacing: 0.5px;
     font-size: 14px;
 }
@@ -72,13 +76,12 @@ html, body {
     }
     .parallax-image {
         display:none;
-        position:absolute;
+        position:relative;
         bottom:0;
         left:0;
         width:100%;
         background-repeat:no-repeat;
         background-position:center;
-        background-size:cover;
     }
     .parallax-image-50 {
         height:200%;
@@ -110,10 +113,10 @@ html, body {
         height:100%;
     }
     .gap-100 {
-        height:100%;
+        height: 100%;
     }
-    .header{
-        height: 7%;
+    .header{ 
+
     }
     .header, .content {
         padding:1em;
