@@ -39,7 +39,7 @@
 
             </div> <!-- end social -->
         </div> <!-- end row -->
-
+ <div class="gap gap-100" style="background-color: rgb(8,8,8);">
         <img src="img/headerfinal.png" style="width: 100%; margin: 0;">
         <div class="content" id="bacons">
             <div class="row">
@@ -59,7 +59,7 @@
             <!-- end row -->
         </div>
         <!-- end bacons -->
-        <div class="gap gap-100" style="backgroun-image: url(img/tunnel.jpg);">
+        <div class="gap gap-100" style="background-image: url(img/tunnel.jpg);">
             <div class="row">
                 <div class="col-md-7 col-sm-9 col-xs-9"></div>
                 <div class="col-md-5 col-sm-8 col-xs-8" id="quot2" style=" padding-top: 20%;">
@@ -247,7 +247,11 @@
             </script>
             <script type="text/javascript" src="js/skrollr.min.js"></script>
             <script type="text/javascript">
-                var s = skrollr.init();
+                skrollr.init({
+        smoothScrolling: false,
+        mobileDeceleration: 0.004
+    });
+
             </script>
             <script src="js/js/cbpFWTabs.js"></script>
             <script>
