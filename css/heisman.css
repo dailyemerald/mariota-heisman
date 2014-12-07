@@ -39,10 +39,10 @@ html, body {
 }
 .story {
     color: white;
-    line-height: 30px;
+    line-height: 26px;
     font-family: 'liberation sans';
     letter-spacing: 0.5px;
-    font-size: 14px;
+    font-size: 17px;
 }
     * {
         padding:0;
@@ -76,7 +76,7 @@ html, body {
     }
     .parallax-image {
         display:none;
-        
+        position: absolute;
         bottom:0;
         left:0;
         width:100%;
