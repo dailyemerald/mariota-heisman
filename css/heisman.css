@@ -1,80 +1,132 @@
-body{
-	margin: 0;
-	width: 100%;
+html, body {
+    height:100%;
 }
 @font-face {
     font-family:'exo-black';
     src: url(../fonts/exo-black.otf);
 }
-#headOverlay{
-	width: 100%;
-	height: 300px;
-	opacity: 0.7;
-	text-align: center;
-	position: fixed;
-	color: white;
-	padding-top: 37%;
-	font-family:'exo-black', sans-serif;
-	letter-spacing: 2px;
+@font-face {
+    font-family: 'liberation sans';
+    src: url(../fonts/Liberation-Sans/LiberationSans-Regular.ttf);
 }
-#pg1{
-	width: 100%;
-	height: auto;
+#byLine{
+    padding-left: 3%;
+    color: white;
 }
-#pg2{
-	width: 100%;
-	height: 400px;
-	font-family:'exo-black', sans-serif;
-	text-align: center;
+#emerald{
+    font-family:'exo-black';
+    letter-spacing: 2px;  
 }
-#lede{
-	padding-top: 12%;
-}	
-#pg3{
-	width: 100%;
-	height: 700px;
-	background-color: black;
+.share-buttons img {
+    width: 30%;
+    margin-right: 15%;
+    border: 0;
+    box-shadow: 0;
 }
-.insert{
-	position: absolute;
-	background-color: white;
-	border-radius: 3px;
-	height: 450px;
-	width: 250px;
-	text-align: center;
-	padding-top: 3%;
+#svg{
+    width: 150%;
 }
-#insert1{
-	left: 10%;
+#quot1 {
+    font-size: 20px;
+    font-family: 'liberation sans';
+    color: white;
 }
-#insert2{
-	right: 40%;
+#quot2{
+    color: white;
+    font-size: 30px;
+    font-family: 'liberation sans';
+    font-weight: bold;
 }
-#insertSp{
-	height: 18%;
-	width: 100%;
+.story {
+    color: white;
+    line-height: 30px;
+    font-family: 'liberation sans';
+    letter-spacing: 0.5px;
+    font-size: 14px;
 }
-#heads{
-	position: absolute;
-	right: 15%;
-}
-#pg4{
-	width: 100%;
-	height: 700px;
-	background-color: white;
-}
-#byline{
-	padding-top: 5%;
-	text-align: center;
-	font-family: sans-serif;
-}
-
-
-
-
-
-
-
-
-
+    * {
+        padding:0;
+        margin:0;
+    }
+    html, body {
+        height:100%;
+    }
+    .skrollr-desktop body {
+        height:100% !important;
+    }
+    body {
+        font-family:sans-serif;
+    }
+    p {
+        margin:1em 0;
+    }
+    .parallax-image-wrapper {
+        position:fixed;
+        left:0;
+        width:100%;
+        overflow:hidden;
+    }
+    .parallax-image-wrapper-50 {
+        height:50%;
+        top:-50%;
+    }
+    .parallax-image-wrapper-100 {
+        height:100%;
+        top:-100%;
+    }
+    .parallax-image {
+        display:none;
+        
+        bottom:0;
+        left:0;
+        width:100%;
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size:cover;
+    }
+    .parallax-image-50 {
+        height:200%;
+        top:-50%;
+    }
+    .parallax-image-100 {
+        height:100%;
+        top:0;
+    }
+    .parallax-image.skrollable-between {
+        display:block;
+    }
+    .no-skrollr .parallax-image-wrapper {
+        display:none !important;
+    }
+    #skrollr-body {
+        height:100%;
+        overflow:visible;
+        position:relative;
+    }
+    .gap {
+        background:transparent center no-repeat;
+        background-size:cover;
+    }
+    .skrollr .gap {
+        background:transparent !important;
+    }
+    .gap-50 {
+        height:50%;
+    }
+    .gap-100 {
+        height:100%;
+    }
+    .header, .content {
+        background: rgb(8,8,8);
+        padding:1em;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box;
+    }
+    .content-full {
+        height:100%;
+    }
+    #done {
+        height:100%;
+    }
 
