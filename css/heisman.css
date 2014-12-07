@@ -19,12 +19,6 @@ html, body {
     border: 0;
     box-shadow: 0;
 }
-#title {
-    color: white;
-    font-size: 60px;
-    font-family: Times;
-    padding-top: 25%;
-}
 #svg{
     width: 150%;
 }
@@ -52,17 +46,17 @@ html, body {
     }
     html, body {
         height:100%;
+         background-color: rgb(8,8,8); 
     }
     .skrollr-desktop body {
         height:100% !important;
-        background-color: rgb(8,8,8);
     }
     body {
-        font-family:;
+        font-family:'Liberation-Sans';
         background-color: rgb(8,8,8);
     }
     p {
-        margin:1em 0;
+        margin:1em 0;       
     }
     .parallax-image-wrapper {
         position:fixed;

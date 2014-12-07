@@ -30,13 +30,28 @@
     height: 144px
 }
 #three {
-    height: 138px
+    height: 189px
 }
 #four {
     height: 60px
 }
 #five {
     height: 24px
+}
+#one1{
+    height: 300px;
+}
+#two2{
+    height: 150px;
+}
+#three3{
+    height: 150px;
+}
+#four4{
+    height: 120px;
+}
+#five5{
+    height: 105px;
 }
 [data-tooltip] {
     position: relative;
