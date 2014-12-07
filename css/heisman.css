@@ -9,6 +9,10 @@ html, body {
     font-family: 'liberation sans';
     src: url(../fonts/Liberation-Sans/LiberationSans-Regular.ttf);
 }
+#byLine{
+    padding-left: 3%;
+    color: white;
+}
 #emerald{
     font-family:'exo-black';
     letter-spacing: 2px;  
