@@ -99,8 +99,7 @@ html, body {
         display:none !important;
     }
     #skrollr-body {
-        height:100%;
-        min-height: 1px; 
+        height:100%; 
         position:fixed;
     }
     .gap {
