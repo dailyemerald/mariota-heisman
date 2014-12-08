@@ -100,6 +100,7 @@ html, body {
     }
     #skrollr-body {
         height:100%;
+        
         position:relative;
     }
     .gap {
