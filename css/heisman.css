@@ -47,6 +47,8 @@ html, body {
 h3{
     font-family: 'liberation sans';
     font-size: 17px;
+    color: white;
+    padding-left: 5%;
 }
     * {
         padding:0;
@@ -99,7 +101,7 @@ h3{
         top:0;
     }
     .parallax-image.skrollable-between {
-        display:block;
+        
     }
     .no-skrollr .parallax-image-wrapper {
         display:none !important;
