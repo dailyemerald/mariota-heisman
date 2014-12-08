@@ -93,7 +93,7 @@ html, body {
         top:0;
     }
     .parallax-image.skrollable-between {
-        display:block;
+        
     }
     .no-skrollr .parallax-image-wrapper {
         display:none !important;
