@@ -63,7 +63,7 @@ html, body {
     .parallax-image-wrapper {
         position:fixed;
         left:0;
-        
+        width: 100%;
         overflow:hidden;
     }
     .parallax-image-wrapper-50 {
