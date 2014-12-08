@@ -1,5 +1,7 @@
 .cont {
     width: 100%;
+    padding-top: 18%;
+    color: white;
 }
 .bar {
     display: inline-block;
