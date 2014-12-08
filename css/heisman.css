@@ -40,6 +40,8 @@
     font-family: 'liberation sans';
     letter-spacing: 0.5px;
     font-size: 17px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 h3{
     padding-left: 50%; 
@@ -130,3 +132,8 @@ h3{
     #done {
         height:100%;
     }
+
+
+
+
+
