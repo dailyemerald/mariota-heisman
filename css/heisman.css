@@ -44,6 +44,10 @@ html, body {
     letter-spacing: 0.5px;
     font-size: 17px;
 }
+h3{
+    font-family: 'liberation sans';
+    font-size: 17px;
+}
     * {
         padding:0;
         margin:0;
@@ -63,7 +67,7 @@ html, body {
     .parallax-image-wrapper {
         position:fixed;
         left:0;
-        width: 100%;
+        
         overflow:hidden;
     }
     .parallax-image-wrapper-50 {
@@ -95,7 +99,7 @@ html, body {
         top:0;
     }
     .parallax-image.skrollable-between {
-        display:inline;
+        display:block;
     }
     .no-skrollr .parallax-image-wrapper {
         display:none !important;
