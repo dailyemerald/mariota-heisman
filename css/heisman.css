@@ -76,7 +76,7 @@ html, body {
     }
     .parallax-image {
         display:none;
-        position: absolute;
+        
         bottom:0;
         left:0;
         width:100%;
@@ -93,7 +93,7 @@ html, body {
         top:0;
     }
     .parallax-image.skrollable-between {
-        display: block;
+        display:block;
     }
     .no-skrollr .parallax-image-wrapper {
         display:none !important;
