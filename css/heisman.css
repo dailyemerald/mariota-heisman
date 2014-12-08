@@ -100,7 +100,7 @@ html, body {
     }
     #skrollr-body {
         height:100%;
-        
+        overflow:visible;
         position:relative;
     }
     .gap {
@@ -126,12 +126,6 @@ html, body {
     .content-full {
         height:100%;
     }
-
-
-
-
-
-
-
-
-    
+    #done {
+        height:100%;
+    }
