@@ -224,7 +224,7 @@
         <!-- end row -->
     </div>
     <!-- end gap -->
-    <div class="content" id="done">
+    <div class="content-full" id="done">
     <div class="row">
         <div class="col-md-1"></div>
         <p class="col-md-6 col-sm-12 col-xs-12 story" style="padding-top: 3%;">Certain in-game moments have defined Mariota’s time at Oregon.</br>
@@ -236,7 +236,7 @@
             </br>“You knew,” Kai’ai said. “You knew that he was going to be something special.”</br>
             </br>Over two years after making his collegiate debut, Mariota will find out on Monday whether he will be flown to New York for the annual Heisman Trophy ceremony, following through on a childhood dream of his. Mariota has been listed as a clear favorite by the sports betting site Bovada.</br>
             </br>His teammates expect his acceptance speech – if he gets to make one – to be concise and to the point.</br>
-            <aside class="col-md-5 col-sm-12 col-xs-12" style="padding-left: 5%; padding-top: 20%">
+            <aside class="col-md-5 col-sm-12 col-xs-12" style=>
                 <img src="img/pullquote.png">
             </aside>
         </p>
@@ -250,11 +250,19 @@
             </br>
         </p>
     </div><!-- end row -->
-    <p class="story" id="byLine" style="text-align:center;"><em><a class="twitHan" style="color: white; text-decoration: none;" href="https://twitter.com/DavidBaggs" target="_blank"> @DavidBaggs: </a> Design  |  <a class="twitHan" href="https://twitter.com/Sierra_morgann" style="color: white; text-decoration: none;" target="_blank"> @Sierra_morgann: </a> Web Development  | Sasha Gregg: Team Director</em>
-    </p>    
     </div> <!-- end content -->
 </div>
     <!-- end skrollr-body -->
+    <p class="story" id="byLine" style="text-align:center;"><em><a class="twitHan" style="color: white; text-decoration: none;" href="https://twitter.com/DavidBaggs" target="_blank"> @DavidBaggs: </a> Design  |  <a class="twitHan" href="https://twitter.com/Sierra_morgann" style="color: white; text-decoration: none;" target="_blank"> @Sierra_morgann: </a> Web Development  | Sasha Gregg: Team Director</em>
+    </p>    
+    
+    <script type="text/javascript" src="js/skrollr.min.js"></script>
+    <script type="text/javascript">
+        skrollr.init({
+            smoothScrolling: false,
+            mobileDeceleration: 0.004
+        });
+    </script>
     <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -270,23 +278,7 @@
         ga('create', 'UA-56398960-1', 'auto');
         ga('send', 'pageview');
     </script>
-    <script type="text/javascript" src="js/skrollr.min.js"></script>
-    <script type="text/javascript">
-        skrollr.init({
-            smoothScrolling: false,
-            mobileDeceleration: 0.004
-        });
-    </script>
-    <script src="js/js/cbpFWTabs.js"></script>
-    <script>
-        (function() {
-
-            [].slice.call(document.querySelectorAll('.tabs')).forEach(function(el) {
-                new CBPFWTabs(el);
-            });
-
-        })();
-    </script>
+    
 </body>
 
 </html>
