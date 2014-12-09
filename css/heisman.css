@@ -12,13 +12,15 @@
 }
 #emerald{
     font-family:'exo-black';
-    letter-spacing: 2px;  
+    letter-spacing: 2px;
+    padding-top: 1px;   
 }
 .share-buttons img {
     width: 30%;
     margin-right: 15%;
     border: 0;
     box-shadow: 0;
+    padding-top: 2px;
 }
 #svg{
     width: 150%;
